@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[45,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "geckolibhotfix"
+version = "${version}"
+displayName = "Geckolib Hotfix"
+authors = "fayer3"
+description = '''
+Fixes Geckolib models when rendering multiple times
+'''
+#logoFile = ""
+
+[[dependencies.geckolibhotfix]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[4.2,)"
+ordering = "NONE"
+side = "BOTH"

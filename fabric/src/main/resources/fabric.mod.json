@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "geckolibhotfix",
+  "version": "${version}",
+  "name": "Geckolib Hotfix",
+  "description": "Fixes Geckolib models when rendering multiple times",
+  "authors": [
+    "fayer3"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "geckofix-common.mixins.json"
+  ],
+  "depends": {
+    "geckolib": ">=4.2"
+  }
+}
